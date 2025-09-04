@@ -13,19 +13,19 @@ class LibroModel {
     public function obtenerTodos() {
         $l1 = new LibroModel();
         $l1 -> Id = 1;
-        $l1 -> Titulo= 'Tostadora';
-        $l1 -> Autor = 'TopHouse';
-        $l1 -> Aniopublicacion = 'RM3S';
-        $l1 -> Editorial = '$45.000';
-        $l1 -> Genero = 25;
+        $l1 -> Titulo= 'Resultados';
+        $l1 -> Autor = 'Estamateas';
+        $l1 -> Aniopublicacion = '2017';
+        $l1 -> Editorial = 'Buenoas aires';
+        $l1 -> Genero = 'adultos';
 
         $l2 = new LibroModel();
         $l2 -> Id = 2;
-        $l2 -> Titulo = 'AirFryer';
-        $l2 -> Autor ='Acme';
-        $l2 -> Aniopublicacion = 'IVAN-7';
-        $l2 -> Editorial = '$70.000';
-        $l2 -> Genero = 30;
+        $l2 -> Titulo = 'Superarse';
+        $l2 -> Autor ='Rolon';
+        $l2 -> Aniopublicacion = '2022';
+        $l2 -> Editorial = 'Santa fe libros';
+        $l2 -> Genero = 'Adultos';
 
         $l3 = new LibroModel();
         $l3 -> Id = 3;
@@ -37,15 +37,15 @@ class LibroModel {
 
         $l4 = new LibroModel();
         $l4 -> Id = 4;
-        $l4 -> Titulo = 'duelo';
-        $l4 -> Autor= 'rolon';
+        $l4 -> Titulo = 'Duelo';
+        $l4 -> Autor= 'Rolon';
         $l4 -> Aniopublicacion= '2025';
         $l4 -> Editorial= 'lll';
         $l4 -> Genero = 'adultos';
 
          $l5 = new LibroModel();
         $l5 -> Id = 5;
-        $l5 -> Titulo = 'Resultados';
+        $l5 -> Titulo = 'Resultados extraordinarios';
         $l5 -> Autor= 'Bernardo';
         $l5 -> Aniopublicacion= '2016';
         $l5 -> Editorial= 'Bernardo';

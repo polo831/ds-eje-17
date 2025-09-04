@@ -3,11 +3,11 @@
 <ul>
 <?php foreach ($libros as $l): ?>
     <li>
-        <?= $l ->Titulo; ?> 
+        <?= $l ->Titulo; ?> -
         <?= $l ->Autor; ?> -
-         <?= $l  ->Aniopublicacion; ?>
-         <?= $l ->Editorial; ?>
-         <?= $l ->Genero; ?>
+         <?= $l  ->Aniopublicacion; ?>-
+         <?= $l ->Editorial; ?>-
+         <?= $l ->Genero; ?>-
       
     </li>
 <?php endforeach; ?>
